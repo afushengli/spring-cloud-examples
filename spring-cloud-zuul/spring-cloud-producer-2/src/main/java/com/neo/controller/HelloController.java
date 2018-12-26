@@ -13,7 +13,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String index(@RequestParam String name) {
-        logger.info("request two name is "+name);
+        logger.info("request two name is "+name);//spring-cloud-producer-2后台日志会输出3此，以为一次是请求，另外两次是重试
         try{
             Thread.sleep(1000000);
         }catch ( Exception e){
