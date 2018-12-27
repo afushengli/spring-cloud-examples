@@ -9,5 +9,5 @@ spring:
         git:
           uri: https://github.com/afushengli/spring-cloud-examples.git     # 配置git仓库的地址
           search-paths: config-repo                             # git仓库地址下的相对地址，可以配置多个，用,分割。
-          username:                                              # git仓库的账号
-          password:                                              # git仓库的密码
+          username:  afushengli                                            # git仓库的账号
+          password:  19891990xy                                            # git仓库的密码
