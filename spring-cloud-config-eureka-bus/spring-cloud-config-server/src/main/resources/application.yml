@@ -7,12 +7,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ityouknow/spring-cloud-starter/     # 配置git仓库的地址
+          uri: https://github.com/afushengli/spring-cloud-examples.git    # 配置git仓库的地址
           search-paths: config-repo                             # git仓库地址下的相对地址，可以配置多个，用,分割。
-          username: yourname                                        # git仓库的账号
-          password: yourpass                                    # git仓库的密码
+          username: afushengli                                        # git仓库的账号
+          password: 19891990xy                                    # git仓库的密码
   rabbitmq:
-    host: 192.168.0.6
+    host: 192.168.25.100
     port: 5672
     username: admin
     password: 123456
